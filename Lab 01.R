@@ -75,20 +75,20 @@ a <- 5
 a <<- 5
 
 #Vector
-vector <- c(1, 2, 3, 4, 5)
-vector
+vec <- c(1, 2, 3, 4, 5)
+vec
+class(vec)
 
 r <- c("a", "b", "c", "d")
 r
 class(r)
-class(vector)
 
 
-#factor
 gender <- c(0, 1, 0, 1)
 gender
 class(gender)
 
+#factor
 Gender <- factor(gender, c(0, 1), c("Male", "Female"))
 Gender
 class(Gender)
