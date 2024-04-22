@@ -83,6 +83,17 @@ r <- c("a", "b", "c", "d")
 r
 class(r)
 
+#Used to generate sequences of numbers
+seq(1, 10, by = 2)
+class(seq)
+
+
+#Used to replicate elements in a vector
+rep(1:3, times = 2)
+class(rep)
+
+rep(r, times = 2)
+class(rep)
 
 gender <- c(0, 1, 0, 1)
 gender
