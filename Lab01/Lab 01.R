@@ -2,9 +2,9 @@
 getwd()
 
 #Change and check working directly
-setwd("C:\\Users\\HP\\OneDrive\\Desktop\\New folder\\R")
+setwd("C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\R-Labs\\Lab01")
 #OR
-setwd("C:/Users/HP/OneDrive/Desktop/New folder/R")
+setwd("C:/Users/HP/OneDrive/Documents/GitHub/R-Labs/Lab01")
 getwd()
 
 #help
