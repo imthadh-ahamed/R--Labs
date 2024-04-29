@@ -34,25 +34,25 @@ median(temp)
 
 #q9 - What is the mean and standard variation of wind variable? 
 mean(wind) 
-sd(wind) 
+sd(wind)
 
-#q10 - What is the interquartile range of wind variable? 
-IQR(wind) 
+#q10 - What is the interquartile range of wind variable?
+IQR(wind)
 
 #q11 - How many observations have measured during Friday in August 
 # 2 way frequency table for day and variable 
 freq<-table(day,month) 
-freq 
+freq
 #answer -21 
 
 #q12 - What is the average temperature, during September? 
-#avg means mean 
+#avg means mean
 sepMonth <- temp[month == "sep"]
 mean(sepMonth)
 #OR
-mean(temp[month=="sep"]) 
+mean(temp[month=="sep"])
 
 #q13 -  On which day have they measured most observations during month of July? 
 count<-table(day[month=="jul"]) 
-count 
-names(count[count==max(count)]) 
+count
+names(count[count==max(count)])
