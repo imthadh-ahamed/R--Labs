@@ -53,3 +53,4 @@ mod <- function(x){
   names(fre[fre == max(fre)])
 }
 mod(X3)
+
