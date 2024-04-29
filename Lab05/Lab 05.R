@@ -39,7 +39,7 @@ classes<-c()
 for(i in 1:length(breaks)-1){ 
   classes[i]<-paste("[", breaks[i],",", breaks[i+1],"]") 
 } 
-#set to colomns together in single datafrme 
+#set to columns together in single data frame 
 cbind(classes=classes, frequency=freq) 
 
 #Q4 - Portray the distribution in the form of a frequency polygon 
