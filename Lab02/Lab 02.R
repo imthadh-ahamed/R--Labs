@@ -58,3 +58,28 @@ data1
 data2 <- read.table("DATA2.txt", header = TRUE, sep = ",")
 data2
 fix("data2")
+
+
+#Q1
+compute_real_roots <- function(a, b, c) {
+  discriminant <- b^2 - 4*a*c
+  
+  if (discriminant > 0) {
+    root1 <- (-b + sqrt(discriminant)) / (2*a)
+    root2 <- (-b - sqrt(discriminant)) / (2*a)
+    return(c(root1, root2))
+  } else if (discriminant == 0) {
+    root <- -b / (2*a)
+    return(root)
+  } else {
+    return(NULL)  # No real roots
+  }
+}
+
+# Example usage
+a <- 1
+b <- -3
+c <- 2
+roots <- compute_real_roots(a, b, c)
+print("Real roots:", roots)
+
